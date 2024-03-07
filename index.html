@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        h1{
+            color: blue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2{
+            color: green;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{color:red}
+        a:visited{color: gray;}
+        a:hover{color:rgb(141, 226, 5)}
+        a:active{color: green;}
+    </style>
+</head>
+<body>
+    <a href="Animation.html">Click here For Animations</a>
+    <h1>CSS Layers</h1>
+    <div style="background-color: green; width: 300px; height:100px;position: absolute;top: 10px;left:520px;z-index: 3;"></div>
+    <div style="background-color: red; width: 300px; height:100px;position: absolute;top: 50px;left:480px;z-index: 2;"></div>
+    <div style="background-color:blue; width: 300px; height:100px;position: absolute;top: 90px;left:440px;z-index: 1;"></div>
+    <h1>Welcome To CSS</h1>
+    <h2>Easy Learning</h2>
+    <br>
+    <h1>css Fonts</h1>
+    <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Change font Family</p>
+    <p style="font-style: italic;">This is Italic</p>
+    <p style="font-variant: small-caps;">This is small-caps Example</p>
+    <p style="font-weight: bold;">This is Bold</p>
+    <p style="font-size: 40px;">This font size is 40px</p>
+    <p style="font-size: small;">This font size is small</p>
+    <p style="font-size: larger;">This font size is larger</p>
+    <p style="font: italic small-caps bold 15px georgia;">This shorter way to style</p>
+    <h1>CSS Text</h1>
+    <p style="color: red;">Paragraph with red color</p>
+    <p style="direction:rtl;">Paragraph right to left</p>
+    <p style="letter-spacing: 5px;">Paragraph with letter spacing 5px</p>
+    <p style="word-spacing: 5px;">Paragraph with word spacing 5px</p>
+    <p style="text-indent: 1cm;">Paragraph with text indent 1cm</p>
+    <p style="text-decoration:underline ;">This will be underlined</p>
+    <p style="text-decoration: line-through;">This will be Striked through</p>
+    <p style="text-decoration: overline;">This will have over line</p>
+    <p style="text-decoration:wavy;">This text will have wavy effect(it will not support in some browsers)</p>
+    <p style="text-transform:cpaitalized">This will be Capitalized</p>
+    <p style="text-transform:uppercase">This will be uppercase</p>
+    <p style="text-transform:lowercase">This will be lowercase</p>
+    <p style="text-shadow: 4px 4px blue;">This text with shadow</p>
+    <h1>CSS Links</h1>
+    <a href="http://gigleaz.com">Click here for Gigleaz</a>
+    <h1>CSS Lists</h1>
+    <ul>
+    Un-Ordered nested List
+        <li>Tea</li>
+        <li>Coffe</li>
+        <li>Soft Drink</li>
+        <ul>
+            <li>Coca-Cola</li>
+            <li>Mirinda</li>
+            <li>Thumpsup</li>
+        </ul>
+    </ul>
+    <hr>
+    Simalar using styling
+    <ul>
+        <li style="list-style-type: square ;">1</li>
+        <li style="list-style-type: square ;">1</li>
+        <li style="list-style-type: square ;">1</li>
+    </ul>
+    <ul>
+        <li style="list-style-type:disc ;">2</li>
+        <li style="list-style-type:disc ;">2</li>
+        <li style="list-style-type:disc ;">2</li>
+    </ul>
+    <ul>
+        <li style="list-style-type: circle ;">3</li>
+        <li style="list-style-type: circle ;">3</li>
+        <li style="list-style-type: circle ;">3</li>
+    </ul>
+    <ol>
+        <li style="list-style-type:lower-roman"></li>
+        <li style="list-style-type:lower-roman"></li>
+        <li style="list-style-type:lower-roman"></li>
+        <li style="list-style-type:lower-roman"></li>
+    </ol>
+    <ol>
+        <li style="list-style-type:upper-roman"></li>
+        <li style="list-style-type:upper-roman"></li>
+        <li style="list-style-type:upper-roman"></li>
+        <li style="list-style-type:upper-roman"></li>
+    </ol>
+    <ol>
+        <li style="list-style-type:lower-alpha"></li>
+        <li style="list-style-type:lower-alpha"></li>
+        <li style="list-style-type:lower-alpha"></li>
+        <li style="list-style-type:lower-alpha"></li>
+    </ol>
+    <ol>
+        <li style="list-style-type:upper-alpha"></li>
+        <li style="list-style-type:upper-alpha"></li>
+        <li style="list-style-type:upper-alpha"></li>
+        <li style="list-style-type:upper-alpha"></li>
+    </ol>
+    <hr>
+    To Prepare List in Horizontaly:
+    <ul>
+        <li style="float: left; width: 10%;">Physics</li>
+        <li style="float: left; width: 10%;">Mathamatics</li>
+        <li style="float: left; width: 10%;">Chemistry</li>
+        <li style="float: left; width: 10%;">Science</li>
+    </ul><br>
+    <hr>
+    To remove Bullets
+    <ul style="list-style: none;">
+        <li style="float: left; width: 10%;">Physics</li>
+        <li style="float: left; width: 10%;">Mathamatics</li>
+        <li style="float: left; width: 10%;">Chemistry</li>
+        <li style="float: left; width: 10%;">Science</li>
+    </ul>
+
+</body>
+</html>

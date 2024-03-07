@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        #mydiv{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative;
+            animation-name:example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes example {
+            0%{background-color:red; left:0px; top: 0px;}
+            25%{background-color:yellow; left:200px; top: 0px;}
+            50%{background-color:blue; left:200px; top: 200px;}
+            75%{background-color:green; left:0px; top: 200px;}
+            100%{background-color:red; left:0px; top: 0px;}
+            
+        }
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+        #mydiv2{
+            transform: rotate(20deg);
+        }
+        #mydiv3{
+            transform:rotateZ(150deg);
+        }
+        #md{
+            margin-left: 30%;
+            margin-top: -15%;
+        }
+        #md2{
+            margin-left: 60%;
+            margin-top: -18%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation 1</h1>
+    <div id="mydiv"></div>
+    <section id="md">
+    <h1>Animation 2(CSS 2D Transformation)</h1>
+    <div >This is box 1</div>
+    <div id="mydiv2">This is box 2</div>
+    <h1>Roate(20deg)</h1>
+    </section>
+    <section id="md2">
+        <h1>Animation 3(CSS 3D Transformation)</h1>
+        <div >This is box 1</div>
+        <div id="mydiv3">This is box 2</div><br><br><br>
+        <h1>RoateZ(150deg)</h1>
+        </section>
+</body>
+</html>
